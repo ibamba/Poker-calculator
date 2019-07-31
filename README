@@ -1,0 +1,59 @@
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< PROJET PF5 : CALCULETTE DE PROBA POKER >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+-----------------------------------------------------------
+Nom des binômes : <--> BAMBA Ibrahim - Groupe 1
+		  <--> MED Amine Loumani - Groupe 3
+-----------------------------------------------------------
+
+I) PRESENTATION DU DOSSIER
+  -------------------------
+
+Ce dossier contient :
+-un fichier 'README' : Le fichier que vous êtes entrain de lire, contenant des détails sur le contenu et le fonctionnement du projet
+-Les fichiers de codes sources : *.ml (fichiers contenant les codes sources en ocaml)
+-Un makefile (dans le fichier "Makefile") : permettant la compilation totale des code sources (make clean supprime les fichiers binaires)
+-Les fichiers ex1.txt, ex2.txt, ex3.txt et ex4.txt qui contiennent les exemples de test de ./compute donnés dans le sujet
+-Un dossier "tests_poker" : contenant des fichiers de tests de la commande ./compute (batterie de tests proposée sur moodle)
+-Et un dossier interface_graphique permettant d'exécuter l'interface graphique
+
+
+II) COMMENT COMPILER ET TESTER LES PROGRAMMES ?
+   -------------------------------------------
+
+1- Pour compiler : 
+	> make
+	Cette commande compilera tous les fichiers .ml et créera 2 exécutables : "compute" et "ia"
+	correspondant à la commande ./compute et l'extension intelligence artificielle
+	
+	Pour compiler l'interface graphique : entrez dans le dossier interface graphique et tapez
+	> ocamlc -I +lablgtk2 -o poker lablgtk.cma gtkInit.cmo  cartes.cmo combs.cmo calculetteProbaPoker.cmo lectureFichier.cmo poker.ml
+
+2- Pour exécuter : 
+	Vous avez le choix entre trois exécutables
+	> ./compute fichier.txt
+		qui donnera le résultat des probabilités de victoires des donnes données dans le fichier fichier.txt
+	> ./ia
+		qui lancera une boucle textuelle d'interraction du jeu de texas hold'em contre une intelligence artificielle 
+	> ./Interface_graphique/p
+		qui lancera une interface graphique de calculette de probabilités
+
+
+III) COMMENT UTILISER LES DIFFERENTES APPLICATIONS ?
+     -----------------------------------------------
+	1- exécutable compute
+	  -------------------
+Il vous ai fourni les fichiers ex1.txt, ex2.txt, ex3.txt et ex4.txt et une batterie de tests disponible dans le repertoire tests_poker pour tester cet exécutable. Vous pouvez cependant créer votre propre fichier test et le tester avec la commande
+>./compute nonDeVotreFichier.txt
+
+!!!ATTENTION!!! Si vous créez votre propre fichier, assurez-vous que son contenu respecte le format exigé (voir sujet).
+
+	2- exécutable ia
+	  --------------
+Lancez ./ia et vous pourrez jouer au texas hold'em contre une intelligence artificielle de votre choix
+
+	3- exécutable interface_graphique
+	   -------------------------------
+L'interface graphique vous permet de choisir une ou deux donnes et 3, 4 ou 5 cartes pour la table et vous fourni la probabilité de gagner du ou de chaque joueur
+
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< FIN >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
