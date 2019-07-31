@@ -1,0 +1,1066 @@
+REM : le code-source du programme calculant ces donnees
+a ete compile en code natif (cf. ocamlopt).
+-------------------------------------------------------
+fichier : test_1.txt
+remarque : carte haute contre carte haute, victoire de 1 (R contre D)
+
+Aco 4p
+Rco At
+2t 3ca Dt Vco 6p
+
+configurations distinctes : 1
+victoires pour le joueur 1 : 0, 0.%
+victoires pour le joueur 2 : 1, 100.%
+parties nulles : 0, 0.%
+
+tables distinctes pour le joueur 1 : 1
+combinaisons de chaque sorte pour le joueur 1 :
+Quinte Flush : 0,  0.%
+Carre        : 0,  0.%
+Full         : 0,  0.%
+Couleur      : 0,  0.%
+Suite        : 0,  0.%
+Brelan       : 0,  0.%
+Double paire : 0,  0.%
+Paire        : 0,  0.%
+Carte haute  : 1,  100.%
+
+tables + donnes distinctes pour le joueur 2 : 1
+combinaisons de chaque sorte pour le joueur 2 :
+Quinte Flush : 0,  0.%
+Carre        : 0,  0.%
+Full         : 0,  0.%
+Couleur      : 0,  0.%
+Suite        : 0,  0.%
+Brelan       : 0,  0.%
+Double paire : 0,  0.%
+Paire        : 0,  0.%
+Carte haute  : 1,  100.%
+
+temps de calcul (en s) : 0.
+-------------------------------------------------------
+fichier : test_2.txt
+remarque : carte haute contre carte haute, egalite
+
+Aco 4p
+4co At
+2t 3ca Dt Vco 6p
+
+configurations distinctes : 1
+victoires pour le joueur 1 : 0, 0.%
+victoires pour le joueur 2 : 0, 0.%
+parties nulles : 1, 100.%
+
+tables distinctes pour le joueur 1 : 1
+combinaisons de chaque sorte pour le joueur 1 :
+Quinte Flush : 0,  0.%
+Carre        : 0,  0.%
+Full         : 0,  0.%
+Couleur      : 0,  0.%
+Suite        : 0,  0.%
+Brelan       : 0,  0.%
+Double paire : 0,  0.%
+Paire        : 0,  0.%
+Carte haute  : 1,  100.%
+
+tables + donnes distinctes pour le joueur 2 : 1
+combinaisons de chaque sorte pour le joueur 2 :
+Quinte Flush : 0,  0.%
+Carre        : 0,  0.%
+Full         : 0,  0.%
+Couleur      : 0,  0.%
+Suite        : 0,  0.%
+Brelan       : 0,  0.%
+Double paire : 0,  0.%
+Paire        : 0,  0.%
+Carte haute  : 1,  100.%
+
+temps de calcul (en s) : 0.
+-------------------------------------------------------
+fichier : test_3.txt
+remarque : paire (A) contre paire (3), victoire de 1
+
+Aco Ap
+Rco 3t
+2t 3ca Vt 5co 6p
+
+configurations distinctes : 1
+victoires pour le joueur 1 : 1, 100.%
+victoires pour le joueur 2 : 0, 0.%
+parties nulles : 0, 0.%
+
+tables distinctes pour le joueur 1 : 1
+combinaisons de chaque sorte pour le joueur 1 :
+Quinte Flush : 0,  0.%
+Carre        : 0,  0.%
+Full         : 0,  0.%
+Couleur      : 0,  0.%
+Suite        : 0,  0.%
+Brelan       : 0,  0.%
+Double paire : 0,  0.%
+Paire        : 1,  100.%
+Carte haute  : 0,  0.%
+
+tables + donnes distinctes pour le joueur 2 : 1
+combinaisons de chaque sorte pour le joueur 2 :
+Quinte Flush : 0,  0.%
+Carre        : 0,  0.%
+Full         : 0,  0.%
+Couleur      : 0,  0.%
+Suite        : 0,  0.%
+Brelan       : 0,  0.%
+Double paire : 0,  0.%
+Paire        : 1,  100.%
+Carte haute  : 0,  0.%
+
+temps de calcul (en s) : 0.
+-------------------------------------------------------
+fichier : test_4.txt
+remarque : deux paires egales (R), victoire de 1 (8 contre 6)
+
+Rco 8p
+Rp 3t
+Rt 2ca 10t 5co 6p
+
+configurations distinctes : 1
+victoires pour le joueur 1 : 1, 100.%
+victoires pour le joueur 2 : 0, 0.%
+parties nulles : 0, 0.%
+
+tables distinctes pour le joueur 1 : 1
+combinaisons de chaque sorte pour le joueur 1 :
+Quinte Flush : 0,  0.%
+Carre        : 0,  0.%
+Full         : 0,  0.%
+Couleur      : 0,  0.%
+Suite        : 0,  0.%
+Brelan       : 0,  0.%
+Double paire : 0,  0.%
+Paire        : 1,  100.%
+Carte haute  : 0,  0.%
+
+tables + donnes distinctes pour le joueur 2 : 1
+combinaisons de chaque sorte pour le joueur 2 :
+Quinte Flush : 0,  0.%
+Carre        : 0,  0.%
+Full         : 0,  0.%
+Couleur      : 0,  0.%
+Suite        : 0,  0.%
+Brelan       : 0,  0.%
+Double paire : 0,  0.%
+Paire        : 1,  100.%
+Carte haute  : 0,  0.%
+
+temps de calcul (en s) : 0.
+-------------------------------------------------------
+fichier : test_5.txt
+remarque : deux paires egales (R), egalite
+
+Rco 2p
+Rp 3t
+Rt Vca 8t 7co 6p
+
+configurations distinctes : 1
+victoires pour le joueur 1 : 0, 0.%
+victoires pour le joueur 2 : 0, 0.%
+parties nulles : 1, 100.%
+
+tables distinctes pour le joueur 1 : 1
+combinaisons de chaque sorte pour le joueur 1 :
+Quinte Flush : 0,  0.%
+Carre        : 0,  0.%
+Full         : 0,  0.%
+Couleur      : 0,  0.%
+Suite        : 0,  0.%
+Brelan       : 0,  0.%
+Double paire : 0,  0.%
+Paire        : 1,  100.%
+Carte haute  : 0,  0.%
+
+tables + donnes distinctes pour le joueur 2 : 1
+combinaisons de chaque sorte pour le joueur 2 :
+Quinte Flush : 0,  0.%
+Carre        : 0,  0.%
+Full         : 0,  0.%
+Couleur      : 0,  0.%
+Suite        : 0,  0.%
+Brelan       : 0,  0.%
+Double paire : 0,  0.%
+Paire        : 1,  100.%
+Carte haute  : 0,  0.%
+
+temps de calcul (en s) : 0.
+-------------------------------------------------------
+fichier : test_6.txt
+remarque : paire (R) contre brelan (R), victoire de 2
+
+Rco Vp
+Rp Rca
+Rt 2ca 10t 5co 6p
+
+configurations distinctes : 1
+victoires pour le joueur 1 : 0, 0.%
+victoires pour le joueur 2 : 1, 100.%
+parties nulles : 0, 0.%
+
+tables distinctes pour le joueur 1 : 1
+combinaisons de chaque sorte pour le joueur 1 :
+Quinte Flush : 0,  0.%
+Carre        : 0,  0.%
+Full         : 0,  0.%
+Couleur      : 0,  0.%
+Suite        : 0,  0.%
+Brelan       : 0,  0.%
+Double paire : 0,  0.%
+Paire        : 1,  100.%
+Carte haute  : 0,  0.%
+
+tables + donnes distinctes pour le joueur 2 : 1
+combinaisons de chaque sorte pour le joueur 2 :
+Quinte Flush : 0,  0.%
+Carre        : 0,  0.%
+Full         : 0,  0.%
+Couleur      : 0,  0.%
+Suite        : 0,  0.%
+Brelan       : 1,  100.%
+Double paire : 0,  0.%
+Paire        : 0,  0.%
+Carte haute  : 0,  0.%
+
+temps de calcul (en s) : 0.
+-------------------------------------------------------
+fichier : test_7.txt
+remarque : paire (3) contre suite (R), victoire de 2
+
+3co Vp
+Rp Vca
+Dt 3ca 10t 9co 6p
+
+configurations distinctes : 1
+victoires pour le joueur 1 : 0, 0.%
+victoires pour le joueur 2 : 1, 100.%
+parties nulles : 0, 0.%
+
+tables distinctes pour le joueur 1 : 1
+combinaisons de chaque sorte pour le joueur 1 :
+Quinte Flush : 0,  0.%
+Carre        : 0,  0.%
+Full         : 0,  0.%
+Couleur      : 0,  0.%
+Suite        : 0,  0.%
+Brelan       : 0,  0.%
+Double paire : 0,  0.%
+Paire        : 1,  100.%
+Carte haute  : 0,  0.%
+
+tables + donnes distinctes pour le joueur 2 : 1
+combinaisons de chaque sorte pour le joueur 2 :
+Quinte Flush : 0,  0.%
+Carre        : 0,  0.%
+Full         : 0,  0.%
+Couleur      : 0,  0.%
+Suite        : 1,  100.%
+Brelan       : 0,  0.%
+Double paire : 0,  0.%
+Paire        : 0,  0.%
+Carte haute  : 0,  0.%
+
+temps de calcul (en s) : 0.
+-------------------------------------------------------
+fichier : test_8.txt
+remarque : paire (3) contre couleur (p), victoire de 2
+
+3co Vt
+Rp 2ca
+Dp 3ca 10p 9p 6p
+
+configurations distinctes : 1
+victoires pour le joueur 1 : 0, 0.%
+victoires pour le joueur 2 : 1, 100.%
+parties nulles : 0, 0.%
+
+tables distinctes pour le joueur 1 : 1
+combinaisons de chaque sorte pour le joueur 1 :
+Quinte Flush : 0,  0.%
+Carre        : 0,  0.%
+Full         : 0,  0.%
+Couleur      : 0,  0.%
+Suite        : 0,  0.%
+Brelan       : 0,  0.%
+Double paire : 0,  0.%
+Paire        : 1,  100.%
+Carte haute  : 0,  0.%
+
+tables + donnes distinctes pour le joueur 2 : 1
+combinaisons de chaque sorte pour le joueur 2 :
+Quinte Flush : 0,  0.%
+Carre        : 0,  0.%
+Full         : 0,  0.%
+Couleur      : 1,  100.%
+Suite        : 0,  0.%
+Brelan       : 0,  0.%
+Double paire : 0,  0.%
+Paire        : 0,  0.%
+Carte haute  : 0,  0.%
+
+temps de calcul (en s) : 0.
+-------------------------------------------------------
+fichier : test_9.txt
+remarque : paire (2) contre full (R, 2), victoire de 2
+
+3co Vp
+Rp Rca
+Rt 2ca 10t 2co 6p
+
+configurations distinctes : 1
+victoires pour le joueur 1 : 0, 0.%
+victoires pour le joueur 2 : 1, 100.%
+parties nulles : 0, 0.%
+
+tables distinctes pour le joueur 1 : 1
+combinaisons de chaque sorte pour le joueur 1 :
+Quinte Flush : 0,  0.%
+Carre        : 0,  0.%
+Full         : 0,  0.%
+Couleur      : 0,  0.%
+Suite        : 0,  0.%
+Brelan       : 0,  0.%
+Double paire : 0,  0.%
+Paire        : 1,  100.%
+Carte haute  : 0,  0.%
+
+tables + donnes distinctes pour le joueur 2 : 1
+combinaisons de chaque sorte pour le joueur 2 :
+Quinte Flush : 0,  0.%
+Carre        : 0,  0.%
+Full         : 1,  100.%
+Couleur      : 0,  0.%
+Suite        : 0,  0.%
+Brelan       : 0,  0.%
+Double paire : 0,  0.%
+Paire        : 0,  0.%
+Carte haute  : 0,  0.%
+
+temps de calcul (en s) : 0.
+-------------------------------------------------------
+fichier : test_10.txt
+remarque : deux doubles paires (A, 2) et (R, 3), victoire de 1 (A contre R)
+
+Aco Ap
+Rco 3t
+2t 3ca Rt 5co 2p
+
+configurations distinctes : 1
+victoires pour le joueur 1 : 1, 100.%
+victoires pour le joueur 2 : 0, 0.%
+parties nulles : 0, 0.%
+
+tables distinctes pour le joueur 1 : 1
+combinaisons de chaque sorte pour le joueur 1 :
+Quinte Flush : 0,  0.%
+Carre        : 0,  0.%
+Full         : 0,  0.%
+Couleur      : 0,  0.%
+Suite        : 0,  0.%
+Brelan       : 0,  0.%
+Double paire : 1,  100.%
+Paire        : 0,  0.%
+Carte haute  : 0,  0.%
+
+tables + donnes distinctes pour le joueur 2 : 1
+combinaisons de chaque sorte pour le joueur 2 :
+Quinte Flush : 0,  0.%
+Carre        : 0,  0.%
+Full         : 0,  0.%
+Couleur      : 0,  0.%
+Suite        : 0,  0.%
+Brelan       : 0,  0.%
+Double paire : 1,  100.%
+Paire        : 0,  0.%
+Carte haute  : 0,  0.%
+
+temps de calcul (en s) : 0.
+-------------------------------------------------------
+fichier : test_11.txt
+remarque : deux doubles paires (A, 2) et (A, 4), victoire de 2 (2 contre 4)
+
+3co 2p
+2ca 4t
+At At 2t 4co Vp
+
+configurations distinctes : 1
+victoires pour le joueur 1 : 0, 0.%
+victoires pour le joueur 2 : 1, 100.%
+parties nulles : 0, 0.%
+
+tables distinctes pour le joueur 1 : 1
+combinaisons de chaque sorte pour le joueur 1 :
+Quinte Flush : 0,  0.%
+Carre        : 0,  0.%
+Full         : 0,  0.%
+Couleur      : 0,  0.%
+Suite        : 0,  0.%
+Brelan       : 0,  0.%
+Double paire : 1,  100.%
+Paire        : 0,  0.%
+Carte haute  : 0,  0.%
+
+tables + donnes distinctes pour le joueur 2 : 1
+combinaisons de chaque sorte pour le joueur 2 :
+Quinte Flush : 0,  0.%
+Carre        : 0,  0.%
+Full         : 0,  0.%
+Couleur      : 0,  0.%
+Suite        : 0,  0.%
+Brelan       : 0,  0.%
+Double paire : 1,  100.%
+Paire        : 0,  0.%
+Carte haute  : 0,  0.%
+
+temps de calcul (en s) : 0.
+-------------------------------------------------------
+fichier : test_12.txt
+remarque : deux doubles paires egales (A, 3), victoire de 2 (V contre R)
+
+3co 10p
+3p Rt
+At Aca 3ca 2p Vp
+
+configurations distinctes : 1
+victoires pour le joueur 1 : 0, 0.%
+victoires pour le joueur 2 : 1, 100.%
+parties nulles : 0, 0.%
+
+tables distinctes pour le joueur 1 : 1
+combinaisons de chaque sorte pour le joueur 1 :
+Quinte Flush : 0,  0.%
+Carre        : 0,  0.%
+Full         : 0,  0.%
+Couleur      : 0,  0.%
+Suite        : 0,  0.%
+Brelan       : 0,  0.%
+Double paire : 1,  100.%
+Paire        : 0,  0.%
+Carte haute  : 0,  0.%
+
+tables + donnes distinctes pour le joueur 2 : 1
+combinaisons de chaque sorte pour le joueur 2 :
+Quinte Flush : 0,  0.%
+Carre        : 0,  0.%
+Full         : 0,  0.%
+Couleur      : 0,  0.%
+Suite        : 0,  0.%
+Brelan       : 0,  0.%
+Double paire : 1,  100.%
+Paire        : 0,  0.%
+Carte haute  : 0,  0.%
+
+temps de calcul (en s) : 0.
+-------------------------------------------------------
+fichier : test_13.txt
+remarque : double paire (R, 3) contre carre (R), victoire de 2
+
+3co 3p
+Rp Rca
+Rt Rco Vt 2co 6p
+
+configurations distinctes : 1
+victoires pour le joueur 1 : 0, 0.%
+victoires pour le joueur 2 : 1, 100.%
+parties nulles : 0, 0.%
+
+tables distinctes pour le joueur 1 : 1
+combinaisons de chaque sorte pour le joueur 1 :
+Quinte Flush : 0,  0.%
+Carre        : 0,  0.%
+Full         : 0,  0.%
+Couleur      : 0,  0.%
+Suite        : 0,  0.%
+Brelan       : 0,  0.%
+Double paire : 1,  100.%
+Paire        : 0,  0.%
+Carte haute  : 0,  0.%
+
+tables + donnes distinctes pour le joueur 2 : 1
+combinaisons de chaque sorte pour le joueur 2 :
+Quinte Flush : 0,  0.%
+Carre        : 1,  100.%
+Full         : 0,  0.%
+Couleur      : 0,  0.%
+Suite        : 0,  0.%
+Brelan       : 0,  0.%
+Double paire : 0,  0.%
+Paire        : 0,  0.%
+Carte haute  : 0,  0.%
+
+temps de calcul (en s) : 0.
+-------------------------------------------------------
+fichier : test_14.txt
+remarque : suite contre suite, egalite
+
+2co 3p
+3co 4p
+5t 7ca 6t 9co 8p
+
+configurations distinctes : 1
+victoires pour le joueur 1 : 0, 0.%
+victoires pour le joueur 2 : 0, 0.%
+parties nulles : 1, 100.%
+
+tables distinctes pour le joueur 1 : 1
+combinaisons de chaque sorte pour le joueur 1 :
+Quinte Flush : 0,  0.%
+Carre        : 0,  0.%
+Full         : 0,  0.%
+Couleur      : 0,  0.%
+Suite        : 1,  100.%
+Brelan       : 0,  0.%
+Double paire : 0,  0.%
+Paire        : 0,  0.%
+Carte haute  : 0,  0.%
+
+tables + donnes distinctes pour le joueur 2 : 1
+combinaisons de chaque sorte pour le joueur 2 :
+Quinte Flush : 0,  0.%
+Carre        : 0,  0.%
+Full         : 0,  0.%
+Couleur      : 0,  0.%
+Suite        : 1,  100.%
+Brelan       : 0,  0.%
+Double paire : 0,  0.%
+Paire        : 0,  0.%
+Carte haute  : 0,  0.%
+
+temps de calcul (en s) : 0.
+-------------------------------------------------------
+fichier : test_15.txt
+remarque : carre contre carre, egalite
+
+4co 3p
+3co 4p
+5t 5ca 5p 5co 2p
+
+configurations distinctes : 1
+victoires pour le joueur 1 : 0, 0.%
+victoires pour le joueur 2 : 0, 0.%
+parties nulles : 1, 100.%
+
+tables distinctes pour le joueur 1 : 1
+combinaisons de chaque sorte pour le joueur 1 :
+Quinte Flush : 0,  0.%
+Carre        : 1,  100.%
+Full         : 0,  0.%
+Couleur      : 0,  0.%
+Suite        : 0,  0.%
+Brelan       : 0,  0.%
+Double paire : 0,  0.%
+Paire        : 0,  0.%
+Carte haute  : 0,  0.%
+
+tables + donnes distinctes pour le joueur 2 : 1
+combinaisons de chaque sorte pour le joueur 2 :
+Quinte Flush : 0,  0.%
+Carre        : 1,  100.%
+Full         : 0,  0.%
+Couleur      : 0,  0.%
+Suite        : 0,  0.%
+Brelan       : 0,  0.%
+Double paire : 0,  0.%
+Paire        : 0,  0.%
+Carte haute  : 0,  0.%
+
+temps de calcul (en s) : 0.
+-------------------------------------------------------
+fichier : test_16.txt
+remarque : carre contre carre, egalite
+
+4co 3p
+3co 4p
+5t 5ca 5p 5co 6p
+
+configurations distinctes : 1
+victoires pour le joueur 1 : 0, 0.%
+victoires pour le joueur 2 : 0, 0.%
+parties nulles : 1, 100.%
+
+tables distinctes pour le joueur 1 : 1
+combinaisons de chaque sorte pour le joueur 1 :
+Quinte Flush : 0,  0.%
+Carre        : 1,  100.%
+Full         : 0,  0.%
+Couleur      : 0,  0.%
+Suite        : 0,  0.%
+Brelan       : 0,  0.%
+Double paire : 0,  0.%
+Paire        : 0,  0.%
+Carte haute  : 0,  0.%
+
+tables + donnes distinctes pour le joueur 2 : 1
+combinaisons de chaque sorte pour le joueur 2 :
+Quinte Flush : 0,  0.%
+Carre        : 1,  100.%
+Full         : 0,  0.%
+Couleur      : 0,  0.%
+Suite        : 0,  0.%
+Brelan       : 0,  0.%
+Double paire : 0,  0.%
+Paire        : 0,  0.%
+Carte haute  : 0,  0.%
+
+temps de calcul (en s) : 0.
+-------------------------------------------------------
+fichier : test_17.txt
+remarque : suite (5) contre suite (A), victoire de 2
+
+2co 3p
+Vca Dp
+At Rca 10p 5co 4p
+
+configurations distinctes : 1
+victoires pour le joueur 1 : 0, 0.%
+victoires pour le joueur 2 : 1, 100.%
+parties nulles : 0, 0.%
+
+tables distinctes pour le joueur 1 : 1
+combinaisons de chaque sorte pour le joueur 1 :
+Quinte Flush : 0,  0.%
+Carre        : 0,  0.%
+Full         : 0,  0.%
+Couleur      : 0,  0.%
+Suite        : 1,  100.%
+Brelan       : 0,  0.%
+Double paire : 0,  0.%
+Paire        : 0,  0.%
+Carte haute  : 0,  0.%
+
+tables + donnes distinctes pour le joueur 2 : 1
+combinaisons de chaque sorte pour le joueur 2 :
+Quinte Flush : 0,  0.%
+Carre        : 0,  0.%
+Full         : 0,  0.%
+Couleur      : 0,  0.%
+Suite        : 1,  100.%
+Brelan       : 0,  0.%
+Double paire : 0,  0.%
+Paire        : 0,  0.%
+Carte haute  : 0,  0.%
+
+temps de calcul (en s) : 0.
+-------------------------------------------------------
+fichier : test_18.txt
+remarque : quinte flush (A) contre suite (A), victoire de 2
+
+Vco Dp
+Vca Dca
+Aca Rca 10ca 5co 2p
+
+configurations distinctes : 1
+victoires pour le joueur 1 : 0, 0.%
+victoires pour le joueur 2 : 1, 100.%
+parties nulles : 0, 0.%
+
+tables distinctes pour le joueur 1 : 1
+combinaisons de chaque sorte pour le joueur 1 :
+Quinte Flush : 0,  0.%
+Carre        : 0,  0.%
+Full         : 0,  0.%
+Couleur      : 0,  0.%
+Suite        : 1,  100.%
+Brelan       : 0,  0.%
+Double paire : 0,  0.%
+Paire        : 0,  0.%
+Carte haute  : 0,  0.%
+
+tables + donnes distinctes pour le joueur 2 : 1
+combinaisons de chaque sorte pour le joueur 2 :
+Quinte Flush : 1,  100.%
+Carre        : 0,  0.%
+Full         : 0,  0.%
+Couleur      : 0,  0.%
+Suite        : 0,  0.%
+Brelan       : 0,  0.%
+Double paire : 0,  0.%
+Paire        : 0,  0.%
+Carte haute  : 0,  0.%
+
+temps de calcul (en s) : 0.
+-------------------------------------------------------
+fichier : test_19.txt
+remarque : quinte flush (R) contre quinte flush (A), victoire de 2
+
+9ca 4p
+Aca 3p
+Rca 10ca Vca Dca 2p
+
+configurations distinctes : 1
+victoires pour le joueur 1 : 0, 0.%
+victoires pour le joueur 2 : 1, 100.%
+parties nulles : 0, 0.%
+
+tables distinctes pour le joueur 1 : 1
+combinaisons de chaque sorte pour le joueur 1 :
+Quinte Flush : 1,  100.%
+Carre        : 0,  0.%
+Full         : 0,  0.%
+Couleur      : 0,  0.%
+Suite        : 0,  0.%
+Brelan       : 0,  0.%
+Double paire : 0,  0.%
+Paire        : 0,  0.%
+Carte haute  : 0,  0.%
+
+tables + donnes distinctes pour le joueur 2 : 1
+combinaisons de chaque sorte pour le joueur 2 :
+Quinte Flush : 1,  100.%
+Carre        : 0,  0.%
+Full         : 0,  0.%
+Couleur      : 0,  0.%
+Suite        : 0,  0.%
+Brelan       : 0,  0.%
+Double paire : 0,  0.%
+Paire        : 0,  0.%
+Carte haute  : 0,  0.%
+
+temps de calcul (en s) : 0.
+-------------------------------------------------------
+fichier : test_20.txt
+remarque : seconde donne inconnue, 5 cartes sur la table
+
+3co 3p
+?
+Rt Rco Vt 2co 6p
+
+configurations distinctes : 990
+victoires pour le joueur 1 : 614, 62.0202020202%
+victoires pour le joueur 2 : 375, 37.8787878788%
+parties nulles : 1, 0.10101010101%
+
+tables distinctes pour le joueur 1 : 1
+combinaisons de chaque sorte pour le joueur 1 :
+Quinte Flush : 0,  0.%
+Carre        : 0,  0.%
+Full         : 0,  0.%
+Couleur      : 0,  0.%
+Suite        : 0,  0.%
+Brelan       : 0,  0.%
+Double paire : 1,  100.%
+Paire        : 0,  0.%
+Carte haute  : 0,  0.%
+
+tables + donnes distinctes pour le joueur 2 : 990
+combinaisons de chaque sorte pour le joueur 2 :
+Quinte Flush : 0,  0.%
+Carre        : 1,  0.10101010101%
+Full         : 27,  2.72727272727%
+Couleur      : 0,  0.%
+Suite        : 0,  0.%
+Brelan       : 68,  6.86868686869%
+Double paire : 382,  38.5858585859%
+Paire        : 512,  51.7171717172%
+Carte haute  : 0,  0.%
+
+temps de calcul (en s) : 0.
+-------------------------------------------------------
+fichier : test_21.txt
+remarque : seconde donne inconnue, 5 cartes sur la table
+
+3co 10p
+?
+At Aca 3ca 2p Vp
+
+configurations distinctes : 990
+victoires pour le joueur 1 : 633, 63.9393939394%
+victoires pour le joueur 2 : 297, 30.%
+parties nulles : 60, 6.06060606061%
+
+tables distinctes pour le joueur 1 : 1
+combinaisons de chaque sorte pour le joueur 1 :
+Quinte Flush : 0,  0.%
+Carre        : 0,  0.%
+Full         : 0,  0.%
+Couleur      : 0,  0.%
+Suite        : 0,  0.%
+Brelan       : 0,  0.%
+Double paire : 1,  100.%
+Paire        : 0,  0.%
+Carte haute  : 0,  0.%
+
+tables + donnes distinctes pour le joueur 2 : 990
+combinaisons de chaque sorte pour le joueur 2 :
+Quinte Flush : 0,  0.%
+Carre        : 1,  0.10101010101%
+Full         : 23,  2.32323232323%
+Couleur      : 0,  0.%
+Suite        : 16,  1.61616161616%
+Brelan       : 70,  7.07070707071%
+Double paire : 352,  35.5555555556%
+Paire        : 528,  53.3333333333%
+Carte haute  : 0,  0.%
+
+temps de calcul (en s) : 0.004
+-------------------------------------------------------
+fichier : test_22.txt
+remarque : seconde donne inconnue, 5 cartes sur la table
+
+Rco 2p
+?
+Rt Vca 8t 7co 6p
+
+configurations distinctes : 990
+victoires pour le joueur 1 : 783, 79.0909090909%
+victoires pour le joueur 2 : 177, 17.8787878788%
+parties nulles : 30, 3.0303030303%
+
+tables distinctes pour le joueur 1 : 1
+combinaisons de chaque sorte pour le joueur 1 :
+Quinte Flush : 0,  0.%
+Carre        : 0,  0.%
+Full         : 0,  0.%
+Couleur      : 0,  0.%
+Suite        : 0,  0.%
+Brelan       : 0,  0.%
+Double paire : 0,  0.%
+Paire        : 1,  100.%
+Carte haute  : 0,  0.%
+
+tables + donnes distinctes pour le joueur 2 : 990
+combinaisons de chaque sorte pour le joueur 2 :
+Quinte Flush : 0,  0.%
+Carre        : 0,  0.%
+Full         : 0,  0.%
+Couleur      : 0,  0.%
+Suite        : 48,  4.84848484848%
+Brelan       : 13,  1.31313131313%
+Double paire : 78,  7.87878787879%
+Paire        : 479,  48.3838383838%
+Carte haute  : 372,  37.5757575758%
+
+temps de calcul (en s) : 0.
+-------------------------------------------------------
+fichier : test_23.txt
+remarque : seconde donne inconnue, 4 cartes sur la table
+
+Aco Ap
+?
+2t 3ca Rt 5co
+
+configurations distinctes : 45540
+victoires pour le joueur 1 : 38091, 83.6429512516%
+victoires pour le joueur 2 : 7101, 15.5928853755%
+parties nulles : 348, 0.764163372859%
+
+tables distinctes pour le joueur 1 : 46
+combinaisons de chaque sorte pour le joueur 1 :
+Quinte Flush : 0,  0.%
+Carre        : 0,  0.%
+Full         : 0,  0.%
+Couleur      : 0,  0.%
+Suite        : 4,  8.69565217391%
+Brelan       : 2,  4.34782608696%
+Double paire : 12,  26.0869565217%
+Paire        : 28,  60.8695652174%
+Carte haute  : 0,  0.%
+
+tables + donnes distinctes pour le joueur 2 : 45540
+combinaisons de chaque sorte pour le joueur 2 :
+Quinte Flush : 0,  0.%
+Carre        : 12,  0.0263504611331%
+Full         : 324,  0.711462450593%
+Couleur      : 495,  1.08695652174%
+Suite        : 2829,  6.21212121212%
+Brelan       : 1320,  2.89855072464%
+Double paire : 7569,  16.6205533597%
+Paire        : 21588,  47.4044795784%
+Carte haute  : 11403,  25.0395256917%
+
+temps de calcul (en s) : 0.028
+-------------------------------------------------------
+fichier : test_24.txt
+remarque : seconde donne inconnue, 4 cartes sur la table
+
+2co 3p
+?
+5t 7ca 6t 9co
+
+configurations distinctes : 45540
+victoires pour le joueur 1 : 4318, 9.48177426438%
+victoires pour le joueur 2 : 36800, 80.8080808081%
+parties nulles : 4422, 9.71014492754%
+
+tables distinctes pour le joueur 1 : 46
+combinaisons de chaque sorte pour le joueur 1 :
+Quinte Flush : 0,  0.%
+Carre        : 0,  0.%
+Full         : 0,  0.%
+Couleur      : 0,  0.%
+Suite        : 8,  17.3913043478%
+Brelan       : 0,  0.%
+Double paire : 0,  0.%
+Paire        : 18,  39.1304347826%
+Carte haute  : 20,  43.4782608696%
+
+tables + donnes distinctes pour le joueur 2 : 45540
+combinaisons de chaque sorte pour le joueur 2 :
+Quinte Flush : 12,  0.0263504611331%
+Carre        : 12,  0.0263504611331%
+Full         : 324,  0.711462450593%
+Couleur      : 483,  1.06060606061%
+Suite        : 12291,  26.9894598155%
+Brelan       : 1158,  2.54281949934%
+Double paire : 6672,  14.65085639%
+Paire        : 16758,  36.7984189723%
+Carte haute  : 7830,  17.1936758893%
+
+temps de calcul (en s) : 0.02
+-------------------------------------------------------
+fichier : test_25.txt
+remarque : seconde donne inconnue, 4 cartes sur la table
+
+Rco Vp
+?
+Rt 2ca 10t 5co
+
+configurations distinctes : 45540
+victoires pour le joueur 1 : 39046, 85.7400087835%
+victoires pour le joueur 2 : 6230, 13.6802810716%
+parties nulles : 264, 0.579710144928%
+
+tables distinctes pour le joueur 1 : 46
+combinaisons de chaque sorte pour le joueur 1 :
+Quinte Flush : 0,  0.%
+Carre        : 0,  0.%
+Full         : 0,  0.%
+Couleur      : 0,  0.%
+Suite        : 0,  0.%
+Brelan       : 2,  4.34782608696%
+Double paire : 12,  26.0869565217%
+Paire        : 32,  69.5652173913%
+Carte haute  : 0,  0.%
+
+tables + donnes distinctes pour le joueur 2 : 45540
+combinaisons de chaque sorte pour le joueur 2 :
+Quinte Flush : 6,  0.0131752305665%
+Carre        : 9,  0.0197628458498%
+Full         : 243,  0.533596837945%
+Couleur      : 489,  1.07378129117%
+Suite        : 660,  1.44927536232%
+Brelan       : 1149,  2.52305665349%
+Double paire : 6624,  14.5454545455%
+Paire        : 22488,  49.3807641634%
+Carte haute  : 13872,  30.4611330698%
+
+temps de calcul (en s) : 0.02
+-------------------------------------------------------
+fichier : test_26.txt
+remarque : seconde donne inconnue, 3 cartes sur la table
+
+Aco Ap
+?
+2t 3ca Rt
+
+configurations distinctes : 1070190
+victoires pour le joueur 1 : 906867, 84.7388781431%
+victoires pour le joueur 2 : 161232, 15.0657359908%
+parties nulles : 2091, 0.195385866061%
+
+tables distinctes pour le joueur 1 : 1081
+combinaisons de chaque sorte pour le joueur 1 :
+Quinte Flush : 0,  0.%
+Carre        : 1,  0.0925069380204%
+Full         : 27,  2.49768732655%
+Couleur      : 0,  0.%
+Suite        : 16,  1.48011100833%
+Brelan       : 72,  6.66049953747%
+Double paire : 405,  37.4653098982%
+Paire        : 560,  51.8038852914%
+Carte haute  : 0,  0.%
+
+tables + donnes distinctes pour le joueur 2 : 1070190
+combinaisons de chaque sorte pour le joueur 2 :
+Quinte Flush : 42,  0.0039245367645%
+Carre        : 846,  0.0790513833992%
+Full         : 17874,  1.67017071735%
+Couleur      : 40548,  3.78885992207%
+Suite        : 22992,  2.14840355451%
+Brelan       : 41796,  3.90547472879%
+Double paire : 225828,  21.1016735346%
+Paire        : 494580,  46.2142236425%
+Carte haute  : 225684,  21.08821798%
+
+temps de calcul (en s) : 0.476
+-------------------------------------------------------
+fichier : test_27.txt
+remarque : seconde donne inconnue, 3 cartes sur la table
+
+3co 2p
+?
+At Aca 2t
+
+configurations distinctes : 1070190
+victoires pour le joueur 1 : 572338, 53.4800362552%
+victoires pour le joueur 2 : 442821, 41.3777927284%
+parties nulles : 55031, 5.14217101636%
+
+tables distinctes pour le joueur 1 : 1081
+combinaisons de chaque sorte pour le joueur 1 :
+Quinte Flush : 0,  0.%
+Carre        : 2,  0.185013876041%
+Full         : 179,  16.5587419056%
+Couleur      : 0,  0.%
+Suite        : 16,  1.48011100833%
+Brelan       : 0,  0.%
+Double paire : 884,  81.77613321%
+Paire        : 0,  0.%
+Carte haute  : 0,  0.%
+
+tables + donnes distinctes pour le joueur 2 : 1070190
+combinaisons de chaque sorte pour le joueur 2 :
+Quinte Flush : 282,  0.0263504611331%
+Carre        : 6000,  0.560648109214%
+Full         : 67710,  6.32691391248%
+Couleur      : 40308,  3.7664339977%
+Suite        : 12270,  1.14652538334%
+Brelan       : 115536,  10.795839991%
+Double paire : 404328,  37.7809547837%
+Paire        : 423756,  39.5963333614%
+Carte haute  : 0,  0.%
+
+temps de calcul (en s) : 0.476
+-------------------------------------------------------
+fichier : test_28.txt
+remarque : seconde donne inconnue, 3 cartes sur la table
+
+6co 2p
+?
+At 4co Vp
+
+configurations distinctes : 1070190
+victoires pour le joueur 1 : 163593, 15.2863510218%
+victoires pour le joueur 2 : 849911, 79.4168325251%
+parties nulles : 56686, 5.29681645315%
+
+tables distinctes pour le joueur 1 : 1081
+combinaisons de chaque sorte pour le joueur 1 :
+Quinte Flush : 0,  0.%
+Carre        : 0,  0.%
+Full         : 0,  0.%
+Couleur      : 0,  0.%
+Suite        : 16,  1.48011100833%
+Brelan       : 15,  1.38760407031%
+Double paire : 90,  8.32562442183%
+Paire        : 528,  48.8436632747%
+Carte haute  : 432,  39.9629972248%
+
+tables + donnes distinctes pour le joueur 2 : 1070190
+combinaisons de chaque sorte pour le joueur 2 :
+Quinte Flush : 42,  0.0039245367645%
+Carre        : 840,  0.07849073529%
+Full         : 17712,  1.6550332184%
+Couleur      : 6888,  0.643624029378%
+Suite        : 31752,  2.96694979396%
+Brelan       : 41994,  3.92397611639%
+Double paire : 226638,  21.1773610293%
+Paire        : 509244,  47.5844476215%
+Carte haute  : 235080,  21.966192919%
+
+temps de calcul (en s) : 0.484
